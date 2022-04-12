@@ -1,0 +1,33 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    background: -webkit-linear-gradient(top, #ffb9d6, #d9fffc);
+}
+
+#snakeBoard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#score {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+}
+
+.options {
+    text-align: center;
+    margin: 30px;
+}
+
+div, label {
+    padding: 5px;
+}
